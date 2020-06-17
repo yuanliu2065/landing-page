@@ -1,0 +1,15 @@
+{
+  "name": "amarillo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "compile:sass": "node-sass sass/main.scss css/index.css -w",
+   "start": "script start"
+  },
+  "author": "Yuan",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
